@@ -89,6 +89,7 @@
 .link2 {
     object-position: center;
     padding-bottom: 2px;
+    padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
     display: table;
