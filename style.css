@@ -58,12 +58,9 @@
     clear: both;
 }
 
-@media screen and (max-width:600px) {
-    * {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 .button {
