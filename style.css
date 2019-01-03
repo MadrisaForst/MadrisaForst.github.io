@@ -58,7 +58,7 @@
 }
 
 @viewport {
-  width: device-width ;
+  max-width: 100%;
 }
 
 .button {
