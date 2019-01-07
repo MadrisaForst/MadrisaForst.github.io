@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>CSS Website Layout</title>
-<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 <style type="text/css">
 
 .title {
@@ -115,7 +115,12 @@
 }
 
 #unser_betrieb {
-    padding-top: 20px;
+    padding-top: 8%;
+}
+
+#img {
+    border-color: black;
+    
 }
 
 iframe {
@@ -132,6 +137,86 @@ iframe {
 
 #unser_betrieb {
     padding-bottom: 20%;
+}
+
+.container {
+    text-align: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #eac8c8;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}   
+
+.row2 {
+    padding-top: 10px;
+    padding-left: 13%;
+    padding-right: 5%;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column4 {
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
 }
 
 .footnote {
@@ -161,6 +246,14 @@ h2 {
     font-family: bahnschrift;
     font-size: 25px;
     padding-left: 0%;
+}
+
+h3 {
+    color: #562020;
+    text-align: center;
+    font-family: bahnschrift;
+    font-size: 30px;
+    padding-top: 20px;
 }
 
 p {
@@ -197,11 +290,18 @@ p3 {
 p4 {
     color: black;
     margin-bottom: 4%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align-last: center;
     font-family: bahnschrift condensed;
     font-size: 16px;
-    text-align-last: right;
+    background-color: #ffa4a4;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+p5 {
+    font-family: bahnschrift semibold;
+    font-size: 20px;
+    color: #562020;
 }
 
 </style>
