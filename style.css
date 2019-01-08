@@ -4,8 +4,9 @@
 <title>CSS Website Layout</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 <style type="text/css">
+{}
 
-.title {
+/*.title {
     margin-left: auto;
     margin-right: auto;
     border-left: 6px solid #983939;
@@ -17,7 +18,7 @@
     min-height: inherit;
     min-width: inherit;
     max-width: 80%;
-}
+}*/
 
 .title1 {
     margin-left: auto;
@@ -150,32 +151,6 @@ iframe {
 .cursor {
     cursor: pointer;
 }
-/*
-.prev,
-.next {
-    cursor: pointer;
-    position: ;
-    top: 40%;
-    width: auto;
-    padding: 16px;s
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0,8);
-}*/
 
 .button2 {
     background-color: #dca3a3;
